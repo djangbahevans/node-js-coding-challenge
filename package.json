@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node app.js",
-    "test": "mocha --recursive"
+    "test": "nodemon --exec \"mocha --recursive\""
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -27,6 +27,7 @@
     "gulp-uglify": "^1.2.0",
     "gulp-watch": "^4.3.4",
     "mocha": "^2.4.5",
+    "nodemon": "^2.0.15",
     "supertest": "^1.2.0",
     "supertest-as-promised": "^3.1.0"
   }
